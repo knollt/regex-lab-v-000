@@ -12,7 +12,6 @@ end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
   text.match(/\A[A-Z].+[.!?,]\z/) != nil
-  
 end
 
 def valid_phone_number?(phone)
